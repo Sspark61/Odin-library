@@ -107,7 +107,7 @@ function resetform() {
 }
 
 function checkform() {
-  if (booktitle.value !== "" && bookauthor !== "" && bookpages !== "") {
+  if (booktitle.value !== "" && bookauthor.value !== "" && bookpages.value !== "") {
     return true;
   } else {
     return false;
